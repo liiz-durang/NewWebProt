@@ -1,0 +1,197 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+	margin-top: 55px;
+}  
+
+/* NAV */
+nav{
+	background-color: #022c43;
+	position: fixed !important;
+	z-index: 1000;
+}
+.navbar-nav .active a{
+	color: #E8C918 !important;
+}
+.nav-link, .dropdown-menu .dropdown-item{
+	color: white !important;
+	font-family: 'PT Sans', sans-serif;
+}
+.nav-link:hover, .dropdown-menu .dropdown-item:hover{
+	color: #E8C918 !important;
+	background-color: #022c43;
+}
+ul .dropdown-menu{
+	background-color: #022c43;
+}
+#nav-s{
+	width: 250px;
+	border-radius: 0;
+	height: 35px;
+	border-style: none;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#but-s{
+	width: 45px;
+	height: 35px;
+	border-radius: 0;
+	background-color: #022c43;
+	border-style: none;
+	border: solid lightgray 1px;
+}
+#but-s i{
+	color: white;
+}
+
+#but-s:hover i{
+	color: #E8C918;
+}
+
+/*Footer*/
+footer{
+	background-color: #022c43;
+}
+
+h6{
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+}
+
+.redes{
+	text-align: center;
+}
+
+footer p{
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	color:  #E8C918;
+	text-align: center;
+	font-size: calc(.8rem + .2vw);
+}
+
+footer div .row div{
+	text-align: center;
+}
+
+footer .container-fluid{
+	text-align: center;
+	background-color: #F4F4F4;
+}
+
+footer .container-fluid #aviso{
+	font-size: x-small;
+}
+
+footer .container-fluid p{
+	color:  #022c43;
+}
+
+/*MAIN*/
+
+main{
+	z-index: 100;
+}
+main h1{
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	color: #022c43;
+	font-size: calc(1rem + 1vw);
+}
+main h2{
+	font-family: 'PT Sans', sans-serif;
+	font-size: calc(1rem + .3vw);
+	color: #022c43;
+}
+
+p{
+	font-family: 'PT Sans', sans-serif;	
+	text-align: justify;
+	font-size: calc(1rem + .3vw);
+}
+
+/*INDEX*/
+
+.banner h1{
+	text-align: left;
+	font-size: calc(1.5rem + 1vw);
+}
+#h2banner{
+	width: 60vw;
+}
+.banner div a button{
+	font-size: calc(1rem + .3vw);
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 0;
+	background-color:  #E8C918;
+	color: #022c43;
+}
+
+/*convocatoria*/
+
+.bann {
+	width: 100%;
+	background-color:  #022c43;
+	border-top: solid;
+	color: #E9ECEF;
+	border-width: 1ch;
+}
+
+.logoProt{
+	width: 100%;	
+}
+
+.logoUnam{
+	width: 100%;
+	
+}
+
+.prog0{
+	color: #E8C918;
+}
+
+.prog1{
+	margin-top: 6vh;
+	color: white;
+}
+
+
+.data ul{
+	list-style: none;
+}
+
+.yellow {
+	
+	border-top: solid #E8C918;;
+}
+
+.data button
+{
+	width:60%;
+
+}
+
+
+button .flecha{
+	position: relative;
+	right: 10%;
+	width: calc(1rem + 0.5vw);
+	
+}
+
+
+/*FAQ*/
+
+
+
+
+
+
+
+
